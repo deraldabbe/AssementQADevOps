@@ -1,0 +1,45 @@
+Testing Plan
+
+Testing Environment:
+Operating System
+Browser 
+Test Scenarios:
+Verify game initalization:
+Start the game and check if the wins and losses counters are setts zero
+Test game functionality:
+Click draw
+Select two robots
+Check if the computer also selects two robots
+Validate the calculations of the winner based on robot health, attack, and defense
+Repeat the game multiple times to find consistency 
+Test game rest:
+Reload the page to verify if the wins and losses counter goes back to zero
+Test cases:
+Test case 1: Game initialization
+Start there game
+Expected: the wins and loses counter is set to zero
+Test case 2: Robot Duel Calculation
+Start the game
+Click Draw
+Select two robots
+Observere the display results
+Expected: the winner is determined correctly based on the robot health, attack, and defense
+Test case 3: Game reststart the game
+Play a few rounds
+Reload the page
+Expected:The wins and loses counter resets to zero
+Bug Report:
+Bug Report 1: Incorrect Calculation of Winner
+In some cases, the calculation of the winner based on robots health, attack and defense are in correct
+Steps to reproduce:
+Start the game 
+Click draw
+Select specific combos of robots where the expected winner does not match the result
+Expected: the winner should be calculated accurately based on the robot status
+Test Documentation:
+Test case 4:Robot selection
+Start the game 
+Click the draw game
+Selection of different combo robots
+Expected: the selected robots are highlighted and visually distinguishable from he others
+
